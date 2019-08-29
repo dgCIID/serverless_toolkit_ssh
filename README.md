@@ -10,6 +10,7 @@ Note: you'll find the environment pretty limited for any heavy-lifting, but if y
 $ now --public
 ```
 
+
 There is no authetnication by default. If you want to protect the terminal behind basic HTTP auth, it accepts a `GOTTY_CREDENTIALS` environment variable in the form `username:password`:
 
 ```
